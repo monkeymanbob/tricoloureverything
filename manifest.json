@@ -1,0 +1,12 @@
+{
+   "content_scripts": [ {
+      "js": [ "content_script.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Replaces the text 'Queen's' or 'queensu' with a Tricoloured 'Queen's' or 'queensu' respectively because tricolour the world.",
+
+   "manifest_version": 2,
+   "name": "TRICOLOUR EVERYTHING",
+   "version": "1.0"
+}
